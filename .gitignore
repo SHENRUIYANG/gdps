@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# 编辑/调试过程产物
+.playwright-mcp/
+shots/
+
+# 个人笔记
+.remember/
+
+# 依赖与构建产物（bid-compare-app 内另有自己的 .gitignore）
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# 环境与密钥
+.env*
+*.pem
+npm-debug.log*
